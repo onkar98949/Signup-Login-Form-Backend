@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+           .logindiv{
+             background-color: rgb(149, 149, 154);
+             margin-left: 400px;
+             width: 50%;
+             text-align: center;
+             height: 600px;
+           }
+            
+           input[type="text"],
+           input[type="password"],
+           input[type="email"],
+           textarea{
+            margin-top: 30px;
+           width: 40%;
+            height: 25px;
+        }
+
+        #h1tag{
+            color: rgb(28, 28, 37);
+        }
+
+        input[type="submit"]{
+            width: 80px;
+            height: 40px;
+            margin-top: 40px;
+            font-size: large;
+            font-weight: bolder;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="login" method="post">
+        <div class="logindiv">
+            <h1 id="h1tag">Login Here !</h1>
+            <p> Name: <input type="text" name="name"  placeholder="  Name"></p>
+            <p> E-mail: <input type="email" name="email" placeholder="  Email"></p>
+            <p>Password: <input type="password" name="password" placeholder="password"></p>
+    
+            <p><input type="submit" value="login"></p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+body{
+    text-align: center;
+    background: color #f2f2f2;;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+} 
+
+.maindiv{
+    
+    background-color: rgb(171, 162, 162);
+    height: 700px;
+    width: 700px;
+    margin-top: 50px;
+   margin-left: 400px ;
+}
+
+p{
+    color: black;
+    text-decoration: none;
+   
+}
+
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea{
+    width: 40%;
+    height: 25px;
+}
+
+input[type="submit"]{
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+    width: 80px;
+    height: 40px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#submitbtn:hover{
+    background-color: rgb(202, 106, 17);
+}
+a {
+    text-decoration: none;
+}
+
+#link:hover{
+    color: red;
+}
